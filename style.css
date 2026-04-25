@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background: #1f2937;
+}
+
+#container {
+  box-sizing: border-box;
+  width: 80%;
+  margin: 50px auto;
+}
+
+/* HEADER SECTION */
+
+#header-section {
+  color: #f9fafb;
+  margin-bottom: 0px;
+}
+
+#title-section {
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+.green-text {
+  color: #10b981;
+}
+
+#tag-line {
+  color: #d1d5db;
+  font-size: 20px;
+  /* margin-bottom: 0; */
+}
+
+/* PASSWORD SECTION */
+
+#password-btn {
+  background: #10b981;
+  color: #f9fafb;
+  border: none;
+  width: 200px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  margin: 30px 0px;
+}
+
+hr {
+  border: #2f3e53 solid 1px;
+}
+
+#password-section {
+  display: flex;
+  justify-content: start;
+  gap: 50px;
+}
+
+.password-box {
+  text-align: center;
+  box-sizing: border-box;
+  background: #273549;
+  color: #55f991;
+  width: 200px;
+  padding: 8px 0px;
+  border-radius: 7px;
+}
+
+/* 🟩 Background
+Card Background: #1F2937
+Inner Panel / Slight Contrast: #273549
+🟢 Accent (Green)
+Primary Accent (title highlight): #10B981
+Button Background: #10B981
+Button Hover: #059669
+Bright Accent / Glow: #34D399
+⚪ Text
+Main Heading Text: #F9FAFB
+Subtext ("Never use an insecure password again"): #D1D5DB
+🔲 Password Output Boxes
+Background: #273549
+Text Color (generated password): #55F991 (slightly brighter green for visibility)
+➖ Borders / Subtle Lines
+Divider / Border: #2F3E53 */
